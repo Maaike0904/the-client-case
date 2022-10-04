@@ -1,38 +1,26 @@
 h1 {
-  font-family: montserrat, sans-serif;
-  font-weight: 700;
   font-size: 2em;
-  float: left;
-  padding-left: 400px;
-  color: #72afa6;
+  font-weight: 900;
+  margin: 0.67em 0;
 }
-
 * {
-  padding: 0;
-  margin: 0;
+  padding: 1;
+  margin: 2;
   text-decoration: none;
   list-style: none;
   box-sizing: border-box;
 }
 
+.flex-container {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: stretch;
+}
+
 body {
   font-family: montserrat;
-}
-
-nav ul {
-  float: left;
-  margin-left: 30px;
-}
-
-nav ul li {
-  line-height: 50px;
-  margin: 0 5px;
-}
-
-nav ul li a {
-  color: black;
-  font-size: 12px;
-  letter-spacing: 0px;
 }
 
 a:hover {
@@ -43,71 +31,61 @@ a:hover {
 i {
   display: none;
 }
+img {
+  height: 250px;
+  float: inline-start;
+  margin-bottom: -60px;
+  margin-top: -40px;
+}
 
-.logo img {
-  float: left;
-  margin-top: 0px;
-  margin-left: -100px;
-  height: 200px;
+* {
+  box-sizing: border-box;
+}
+:root {
+  font-size: min(calc(1em + 1vw), 4em);
+}
+
+header {
+  background: cyan;
+  font-family: montserrat, sans-serif;
+  font-weight: 700;
+  font-size: inherit;
+  color: #72afa6;
+  margin-inline: center;
+  text-align: center;
+}
+
+nav {
+  background: magenta;
+  color: black;
+  line-height: 80px;
+  margin: 10px;
+  font-size: 20px;
+  letter-spacing: 0px;
+  padding: 10px;
+}
+main {
+  background: yellow;
+  font-family: montserrat, sans-serif;
+  font-weight: 400;
+  font-size: 27px;
+  line-height: 1.625;
+  text-align: center;
+}
+
+footer {
+  /background: brown;
+}
+
+.jongetje {
   padding: 5px;
+  border-radius: 100%;
+  align-items: center;
 }
-
-@media (max-width: 952px) {
-  nav ul li a {
-    font-size: 16px;
-  }
-  .logo img {
-    float: left;
-    margin-top: 5px;
-    margin-left: 10px;
-    height: 150px;
-    padding: 5px;
-  }
-  i {
-    display: block;
-  }
-}
-
-@media (max-width: 858px) {
-  ul {
-    position: fixed;
-    width: 100%;
-    height: 100vh;
-    background: none;
-    top: 80px;
-    left: 0;
-    text-align: center;
-  }
-  nav ul li {
-    display: block;
-    margin: 50px 0;
-    line-height: 30px;
-  }
-  nav ul li a {
-    font-size: 20px;
-    transition: all 0.5s;
-  }
-  a:hover,
-  a.active {
-    background: none;
-    color: #72afa6;
-  }
-  h1 {
-    display: none;
-  }
-  i {
-    font-size: 20px;
-    color: #72afa6;
-    float: right;
-    line-height: 80px;
-    cursor: pointer;
-    padding: 25px;
-  }
-  .logo img {
-    text-align: center;
-    margin-top: 5px;
-    margin-left: 10px;
-    height: 150px;
-    padding: 5px;
-  }
+.meisje {
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+  margin: 25px;
+  align-items: center;
 }

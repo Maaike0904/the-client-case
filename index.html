@@ -7,23 +7,52 @@
     <link rel="stylesheet" href="./styles/styles.css" />
     <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
    <script src="https://kit.fontawesome.com/d2e9d3d377.js" crossorigin="anonymous"></script>
-</head>
-</head>
+<style> 
+    body {
+        max-width: 50em;
+        margin: 0 auto;
+        padding: 1em;
+        gap: 0.5em;
+        display: grid;
+        grid-template-columns: 0.4fr 0.7fr;
+        grid-template-rows: 0.5fr 1fr 3fr;
+        grid-template-areas:
+          "nav header"
+          "nav main"
+          "nav footer";
+      }
+      header {
+        grid-area: header;
+      }
+      nav {
+        grid-area: nav;
+      }
+      main {
+        grid-area: main;
+      }
+      footer{
+        grid-area: footer;
+      }
+
+   </style>
+  </head>
   <body>
-    <h1>Dagboek</h1>
-   <div class="logo">
-     <a href="#"><img src="./assets/Logo.webp"></a>
-   </div>
+    <header><h1>Dagboek</h1></header>
+    <main><p>In je dagboek kan de benodigde informatie ingevuld worden zodat er een persoonlijk advies voor jouw Mini geformuleerd kan worden.</p></main>
+   
     <nav>
-        <i class="fa-solid fa-house"></i>
-      <ul>
-        <li><a class="active" href="#">Home</a></li>
-        <li><a class="active" href="#">Agenda</a></li>
-        <li><a class="active" href="#">Producten</a></li>
-        <li><a class="active" href="#">Test</a></li>
-        <li><a class="active" href="#">Account aanpassen</a></li>
-        <li><a class="active" href="#">Uitloggen</a></li>
+   </div>
+        <a href="#"><img src="./assets/Logo.webp"></a>
+      <ul class="flex-container">
+        <li><a class="flex-item" href="#"><i class="fa-solid fa-house"></i> Home</a></li>
+        <li><a class="flex-item" href="#"><i class="fa-solid fa-calendar-days"></i></i> Agenda</a></li>
+        <li><a class="flex-item" href="#"><i class="fa-solid fa-file"></i> Producten</a></li>
+        <li><a class="flex-item" href="#"><i class="fa-solid fa-square-check"></i> Test</a></li>
+        <li><a class="flex-item" href="#"><i class="fa-solid fa-user"></i> Account aanpassen</a></li>
+        <li><a class="flex-item" href="#"><i class="fa-solid fa-right-from-bracket"></i> Uitloggen</a></li>
       </ul>
     </nav>
+  <footer><a class="jongetje"><img src="./assets/jongetje.png"></a></footer>
+  <footer><a class="meisje"><img src="./assets/meisje.jpeg"></a></footer>
   </body>
 </html>

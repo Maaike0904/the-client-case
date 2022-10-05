@@ -1,7 +1,12 @@
 h1 {
   font-size: 2em;
-  font-weight: 900;
+  font-weight: 700;
   margin: 0.67em 0;
+}
+
+h2 {
+  text-align: center;
+  font-size: 24px;
 }
 * {
   padding: 1;
@@ -21,6 +26,11 @@ h1 {
 
 body {
   font-family: montserrat;
+}
+
+a {
+  font-size: 20px;
+  align-items: center;
 }
 
 a:hover {
@@ -69,23 +79,35 @@ main {
   font-family: montserrat, sans-serif;
   font-weight: 400;
   font-size: 27px;
-  line-height: 1.625;
+  line-height: 1.4;
   text-align: center;
 }
 
-footer {
-  /background: brown;
+div.jongetje {
+  float: left;
+  margin: 0.5em;
+}
+div.meisje {
+  float: left;
+  margin: 0.5em;
 }
 
-.jongetje {
-  padding: 5px;
-  border-radius: 100%;
-  align-items: center;
+div.jongetje p {
+  text-align: center;
+  font-family: montserrat;
+  font-size: 1em;
+  align-items: baseline;
 }
-.meisje {
-  width: 200px;
-  height: 200px;
-  border-radius: 100%;
-  margin: 25px;
-  align-items: center;
+
+div.meisje p {
+  text-align: center;
+  font-family: montserrat;
+  font-size: 1em;
+  align-items: baseline;
+}
+
+div.plusje {
+  float: left;
+  margin: -1em;
+  align-items: baseline;
 }

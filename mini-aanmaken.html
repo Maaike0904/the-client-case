@@ -14,11 +14,12 @@
         padding: 1em;
         gap: 0.5em;
         display: grid;
-        grid-template-columns: 0.4fr 1fr;
-        grid-template-rows:-2fr 1fr;
+        grid-template-columns: 0.4fr 0.7fr;
+        grid-template-rows: 0.5fr 1fr 3fr;
         grid-template-areas:
           "nav header"
-          "nav main";
+          "nav main"
+          "nav footer";
       }
       header {
         grid-area: header;
@@ -29,20 +30,12 @@
       main {
         grid-area: main;
       }
-      footer{
-        grid-area: footer;
-      }
 
    </style>
   </head>
   <body>
     <header><h1>Dagboek</h1></header>
-    <main>
-      <h2>In je dagboek kan de benodigde informatie ingevuld worden zodat er een persoonlijk advies voor jouw Mini geformuleerd kan worden.</h2>
-    <div class="jongetje"><p><img src="./assets/jongetje-cirkel.png" width="250" height="250"></p>Daan</div>
-    <div class="meisje"><p><img src="./assets/meisje-cirkel.png" width="250" height="250"></p>Michelle</div>
-      <div class="plusje"><img src="./assets/plusje-cirkel.png"></div>
-    </main>
+    <main><p>In je dagboek kan de benodigde informatie ingevuld worden zodat er een persoonlijk advies voor jouw Mini geformuleerd kan worden.</p></main>
    
     <nav>
    </div>
@@ -56,5 +49,7 @@
         <li><a class="flex-item" href="#"><i class="fa-solid fa-right-from-bracket"></i> Uitloggen</a></li>
       </ul>
     </nav>
+  <footer><a class="jongetje"><img src="./assets/jongetje.png"></a></footer>
+  <footer><a class="meisje"><img src="./assets/meisje.jpeg"></a></footer>
   </body>
 </html>

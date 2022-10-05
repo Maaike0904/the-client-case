@@ -14,12 +14,11 @@
         padding: 1em;
         gap: 0.5em;
         display: grid;
-        grid-template-columns: 0.4fr 0.7fr;
-        grid-template-rows: 0.5fr 1fr 3fr;
+        grid-template-columns: 0.4fr 1fr;
+        grid-template-rows:-2fr 1fr;
         grid-template-areas:
-          "nav header"
-          "nav main"
-          "nav footer";
+          "header main"
+          "nav main";
       }
       header {
         grid-area: header;
@@ -34,22 +33,51 @@
    </style>
   </head>
   <body>
-    <header><h1>Dagboek</h1></header>
-    <main><p>In je dagboek kan de benodigde informatie ingevuld worden zodat er een persoonlijk advies voor jouw Mini geformuleerd kan worden.</p></main>
+    <header> <div class="logo"><img src="./assets/Logo.webp"></div></header>
+    <main><h1>Dagboek</h1>
+      <h2>In je dagboek kan de benodigde informatie ingevuld worden zodat er een persoonlijk advies voor jouw Mini geformuleerd kan worden.</h2>
    
+   <div class="minis"></div>  
+     <div class="plusje1"><img src="./assets/plusje-cirkel.png"></div>
+    <div class="jongetje1"><p><img src="./assets/jongetje-cirkel.png" width="250" height="250"></p></div>
+    <div class="meisje1"><p><img src="./assets/meisje-cirkel.png" width="250" height="250"></p>
+  </div>
+  <div class="invulformulier"></div>
+      </div>
+  </main>
+   
+    <input type="checkbox" id="click">  
     <nav>
-   </div>
-        <a href="#"><img src="./assets/Logo.webp"></a>
-      <ul class="flex-container">
-        <li><a class="flex-item" href="#"><i class="fa-solid fa-house"></i> Home</a></li>
-        <li><a class="flex-item" href="#"><i class="fa-solid fa-calendar-days"></i></i> Agenda</a></li>
-        <li><a class="flex-item" href="#"><i class="fa-solid fa-file"></i> Producten</a></li>
-        <li><a class="flex-item" href="#"><i class="fa-solid fa-square-check"></i> Test</a></li>
-        <li><a class="flex-item" href="#"><i class="fa-solid fa-user"></i> Account aanpassen</a></li>
-        <li><a class="flex-item" href="#"><i class="fa-solid fa-right-from-bracket"></i> Uitloggen</a></li>
-      </ul>
+    </div> 
+
+    <ul>
+       <label class="fas fa-angle-right" for="click"></label>
+        <li>
+        <i class="fas fa-home"></i>
+        <a>Home</a>
+       </li>
+       <li>
+        <i class="fas fa-calendar"></i>
+        <a>Agenda</a>
+       </li>
+       <li>
+        <i class="fas fa-file"></i>
+        <a>Producten</a>
+       </li>
+       <li>
+        <i class="fas fa-square-check"></i>
+        <a>Test</a>
+       </li>
+       <li>
+        <i class="fas fa-user"></i>
+        <a>Account <br> aanpassen</a>
+       </li>
+       <li>
+        <i class="fas fa-right-from-bracket"></i>
+        <a>Uitloggen</a>
+       </li>
+       </ul>
     </nav>
-  <footer><a class="jongetje"><img src="./assets/jongetje.png"></a></footer>
-  <footer><a class="meisje"><img src="./assets/meisje.jpeg"></a></footer>
+ 
   </body>
 </html>

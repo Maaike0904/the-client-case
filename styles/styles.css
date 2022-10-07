@@ -1,11 +1,8 @@
-
-
 h1 {
   font-size: 35px;
   font-weight: 700;
   margin: 0.67em 0;
   color: #72afa6;
-  float: center;
   margin-right: 150px;
 }
 
@@ -14,6 +11,7 @@ h2 {
   font-size: 18px;
   width: 800px;
 }
+
 * {
   padding: 0;
   margin: 0;
@@ -91,13 +89,12 @@ nav li{
 }
 
 nav li:hover{
-  color:#f4eb34;
+  color: #f4eb34;
   transform: scale(1.1);
   opacity: 1;
 }
 
 nav li i{
-  position: center;
   font-size: 24px;
   transition: .4s;
 }
@@ -112,8 +109,8 @@ nav li a {
 
 nav label{
   cursor: pointer;
-  color:#72afa6;
-  background:white;
+  color: #72afa6;
+  background: white;
   font-size: 28px;
   width: 48px;
   height: 48px;
@@ -154,7 +151,6 @@ input{
 }
 
 main {
-  /background: yellow;
   font-family: montserrat, sans-serif;
   font-weight: 400;
   font-size: 27px;

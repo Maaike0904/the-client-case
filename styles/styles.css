@@ -12,6 +12,14 @@ h2 {
   width: 800px;
 }
 
+h3 {
+  font-size: 26px;
+  font-weight: 700;
+  margin: 0.67em 0;
+  color: #f4eb34;
+  margin-right: 150px;
+}
+
 * {
   padding: 0;
   margin: 0;
@@ -29,15 +37,31 @@ h2 {
 }
 
 body {
-  font-family: montserrat;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: white;
-}
+        max-width: 50em;
+        margin: 0 auto;
+        padding: 1em;
+        gap: 0.5em;
+        display: grid;
+        grid-template-columns: 30% 70%;
+        grid-template-rows:20% 100%;
+        grid-template-areas:
+        "header main"
+        "nav main";
+        font-family: montserrat;
+        background-color: white;
+      }
+      header {
+        grid-area: header;
+      }
+      nav {
+        grid-area: nav;
+      }
+      main {
+        grid-area: main;
+      }
 
 a {
-  font-size: 20px;
+  font-size: 16px;
   align-items: center;
 }
 
@@ -45,7 +69,8 @@ i {
   display: none;
 }
 img {
-  height: 250px;
+  height: 200px;
+  width: 200px;
   float: inline-start;
   margin-top: -10px;
 }
@@ -73,7 +98,6 @@ nav {
   text-align: center;
   border-radius: 10px;
   box-shadow: inset 0 0 4px rgba(255, 255, 255, .1);
-              inset 3 3 8px rgba(255, 255, 255, .1);
   transition: .4s;
   margin-left: 30px;
 }
@@ -121,7 +145,7 @@ nav label{
   transition: .4s;
 }
 
-nav label:hover{
+nav button:hover{
   color:#f4eb34;
 }
 
@@ -218,7 +242,7 @@ div.plusje2 {
  margin-left:-15px;
 }
 
-div.invulformulier{
+/div.invulformulier{
   background-color: #ffffff;
   height: 400px;
   width: 400px;
@@ -230,9 +254,71 @@ div.invulformulier{
   box-shadow: 0px 1px 10px 10px rgba(243, 243, 243, 0.75);
 }
 
-div.profielfoto-toevoegen{
+#login-box{
+  /float:right;
+  display:inline-block;
+  margin: 5% auto;
+  width: 400px;
+  height: 400px;
+  background: #ffffff;
+  border-radius: 5%;
+  box-shadow: 0px 1px 10px 10px rgba(243, 243, 243, 0.75);
+}
+
+.invulformulier{
+  /float:right;
+  display:inline-block;
+  margin-right: 220px;
+  box-sizing: border-box;
+  padding: 40px;
+  width: 400px;
+  height: 400px;
+}
+input[type="text"], input[type="date"]{
+  display: inline-block;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+  padding: 4px;
+  width: 300px;
+  height: 32px;
+  border: none;
+  border-bottom: 1px solid #AAA;
+  font-family: montserrat;
+  font-weight:400;
+  font-size: 15px;
+  transition:0.2s ease;
+}
+
+input[type="text"], input[type="date"]{
+  border-bottom: 2px solid #72afa6;
+  color: #000000;
+  transition: 0.2s ease;
+}
+
+input[type="submit"]{
+  margin-top: 28px;
+  width: 120px;
+  height: 32px;
+  background: #72afa6;
+  border:1px;
+  border-color: #72afa6;
+  border-radius: 2px;
   color: #72afa6;
-  height: 30px;
-  width: 30px;
-  border-radius: 50%;
+  font-family: montserrat;
+  font-weight: 500;
+  text-transform: uppercase;
+  transition:0.1s ease;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover, input[type="submit"]:focus{
+  opacity:0.8;
+  box-shadow:0 2px 4px rgba(243, 243, 243, 0.75);
+  transition: 0.1s ease;
+}
+
+input input[type="submit"]:active{
+  opacity: 1;
+  box-shadow: 0 1px 2px rgba(243, 243, 243, 0.75);
+  transition: 0.1s ease;
 }

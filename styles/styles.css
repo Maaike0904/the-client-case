@@ -3,7 +3,7 @@ h1 {
   font-weight: 700;
   margin: 0.67em 0;
   color: #72afa6;
-  margin-right: 150px;
+  margin-right: 220px;
 }
 
 h2 {
@@ -16,8 +16,13 @@ h3 {
   font-size: 26px;
   font-weight: 700;
   margin: 0.67em 0;
-  color: #f4eb34;
+  color: #F47F57;
   margin-right: 150px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  float: left;
+  margin:20px;
+  margin-top: 30px;
 }
 
 * {
@@ -168,6 +173,7 @@ input:checked ~ nav li a{
   padding-left: 150px;
   padding-right: 80px;
   opacity: 1;
+  text-align:initial;
 }
 
 input{
@@ -196,7 +202,7 @@ div.meisje {
 }
 
 div.jongetje p {
-  text-align: center;
+  text-align:unset;
   font-family: montserrat;
   font-size: 16px;
   align-items: baseline;
@@ -213,6 +219,45 @@ div.plusje {
   float: left;
   margin: -1em;
   align-items: baseline;
+}
+
+.btn{
+  text-decoration: none;
+  background-color: #ffffff;
+  fill:#72afa6;
+  border: solid 1px;
+  border-color: #72afa6;
+  height: 70px;
+  width:70px;
+  border-radius: 50%;
+  margin-left: -350px;
+  margin-top: 63px;
+}
+
+.btn a{
+  color:#72afa6;
+}
+
+.btn:hover a{
+  color: white;
+}
+
+.btn:hover{
+  background-color: #72afa6;
+  color:#ffffff;
+  border: solid 1px;
+  height: 70px;
+  width:70px;
+  border-radius: 50%;
+}
+
+.btn:hover{
+  background-color: #72afa6;
+  color:#ffffff;
+  border: solid 1px;
+  height: 70px;
+  width:70px;
+  border-radius: 50%;
 }
 
 div.meisje {
@@ -242,42 +287,23 @@ div.plusje2 {
  margin-left:-15px;
 }
 
-/div.invulformulier{
-  background-color: #ffffff;
-  height: 400px;
-  width: 400px;
-  border-radius: 5%;
-  float:right;
-  margin-right: 330px;
-  margin-top: 40px;
-  padding: 20px;
-  box-shadow: 0px 1px 10px 10px rgba(243, 243, 243, 0.75);
-}
-
 #login-box{
-  /float:right;
   display:inline-block;
   margin: 5% auto;
   width: 400px;
-  height: 400px;
+  height: 430px;
   background: #ffffff;
   border-radius: 5%;
   box-shadow: 0px 1px 10px 10px rgba(243, 243, 243, 0.75);
+  margin-left: -200px;
+  margin-top: 26px;
 }
 
-.invulformulier{
-  /float:right;
-  display:inline-block;
-  margin-right: 220px;
-  box-sizing: border-box;
-  padding: 40px;
-  width: 400px;
-  height: 400px;
-}
 input[type="text"], input[type="date"]{
   display: inline-block;
   box-sizing: border-box;
   margin-bottom: 20px;
+  margin-top: 4px;
   padding: 4px;
   width: 300px;
   height: 32px;
@@ -295,30 +321,131 @@ input[type="text"], input[type="date"]{
   transition: 0.2s ease;
 }
 
-input[type="submit"]{
-  margin-top: 28px;
-  width: 120px;
-  height: 32px;
-  background: #72afa6;
-  border:1px;
-  border-color: #72afa6;
-  border-radius: 2px;
-  color: #72afa6;
-  font-family: montserrat;
-  font-weight: 500;
-  text-transform: uppercase;
-  transition:0.1s ease;
+.button1{
+  border-style: 5px;
+  border: 0px;
+  background-color:#72afa6;
+  border-radius: 30px;
+  height: 35px;
+  width: 135px;
   cursor: pointer;
+  color:white;
+  margin-bottom: 100px;
+  font-family: montserrat;
+  float: left;
+  margin-left: 50px;
+  margin-top: 10px;
 }
 
-input[type="submit"]:hover, input[type="submit"]:focus{
-  opacity:0.8;
-  box-shadow:0 2px 4px rgba(243, 243, 243, 0.75);
-  transition: 0.1s ease;
+.button2{
+  border-style: 5px;
+  border: 0px;
+  background-color:#72afa6;
+  border-radius: 30px;
+  height: 35px;
+  width: 135px;
+  cursor: pointer;
+  color:white;
+  margin-bottom: 100px;
+  font-family: montserrat;
+  float: right;
+  margin-right: 50px;
+  margin-top: 10px;
 }
 
-input input[type="submit"]:active{
-  opacity: 1;
-  box-shadow: 0 1px 2px rgba(243, 243, 243, 0.75);
-  transition: 0.1s ease;
+.button1:hover{
+  background-color:#ffffff;
+  color:#72afa6;
+  border: solid 1px;
+  border-color: #72afa6;
+}
+
+.button2:hover{
+  background-color:#ffffff;
+  color:#72afa6;
+  border: solid 1px;
+  border-color: #72afa6;
+}
+
+.foto-toevoegen{
+  height: 80px;
+  width: 80px;
+  color: white;
+  border-color: lightgrey;
+  border: solid 2px;
+  border-radius: 50%;
+  float: left;
+  margin: 8px;
+  margin-left: 40px;
+  margin-top: 20px;
+}
+
+@media (max-width: 952px){
+*{
+  justify-content: left;
+}
+
+
+nav{
+    display:none;
+}
+
+h1{
+  margin-left: -120px;
+  margin-top: -100px;
+}
+
+h2{
+  margin-left: -120px;  
+}
+
+div.plusje1{
+  justify-content: baseline;
+  margin-left: -280px;
+}
+
+div.jongetje1{
+  justify-content: baseline;
+}
+
+div.meisje1{
+  justify-content: baseline;
+}
+
+body {
+        max-width: 2em;
+        padding: 1em;
+        gap: 0.5em;
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: 20% 20% 100%;
+        grid-template-areas:
+        "header"
+        "nav"
+        "main";
+        font-family: montserrat;
+        background-color: white;
+      }
+      header {
+        grid-area: header;
+      }
+      nav {
+        grid-area: nav;
+      }
+      main {
+        grid-area: main;
+      }
+
+header{
+  justify-content: left;
+  margin-left: -160px;
+  margin-top: 10px;
+}
+main{
+  justify-items: left;
+}
+
+.invulformulier{
+  justify-content: center;
+}
 }

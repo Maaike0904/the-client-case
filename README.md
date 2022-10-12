@@ -26,18 +26,18 @@ Mijn HTML-bestand bestaat uit:
 een linkje naar mijn CSS-bestand,
 <img width="378" alt="Schermafbeelding 2022-10-12 om 20 52 00" src="https://user-images.githubusercontent.com/112861144/195424679-6c51ba89-41eb-42a5-bb4d-0a05a1128e7d.png">
 
-een link naar de juiste typografie,
+een link naar de juiste typografie (Montserrat),
 <img width="592" alt="Schermafbeelding 2022-10-12 om 20 52 11" src="https://user-images.githubusercontent.com/112861144/195424845-7a70a379-b768-468b-839f-12c583605caa.png">
 
 en een link naar je icons.
 <img width="656" alt="Schermafbeelding 2022-10-12 om 20 52 17" src="https://user-images.githubusercontent.com/112861144/195424942-0626ff21-f9e3-43dc-be4f-3a35bc228509.png">
 
 ## Bronnen
-https://freshdesignweb.com/
-https://developer.mozilla.org/
-https://www.w3schools.com/
-https://fontawesome.com/
-https://www.google.com/
+<br>https://freshdesignweb.com/
+<br>https://developer.mozilla.org/
+<br>https://www.w3schools.com/
+<br>https://fontawesome.com/
+<br>https://www.google.com/
 
 ## Licentie
 

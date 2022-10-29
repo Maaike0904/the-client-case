@@ -1,7 +1,5 @@
-> _Fork_ deze leertaak en ga aan de slag. Onderstaande outline ga je gedurende deze taak in jouw eigen GitHub omgeving uitwerken. De instructie vind je, zoals altijd, in: [docs/INSTRUCTIONS.md](docs/INSTRUCTIONS.md)
-
 # Titel
-<!-- Geef je project een titel en schrijf in één zin wat het is -->
+Online dagboek voor Vini-Mini
 
 ## Inhoudsopgave
 
@@ -11,16 +9,33 @@
   * [Licentie](#licentie)
 
 ## Beschrijving
-<!-- In de Beschrijving staat hoe je project er uit ziet, hoe het werkt en wat je er mee kan. -->
-<!-- Voeg een mooie poster visual toe 📸 -->
-<!-- Voeg een link toe naar Github Pages 🌐-->
+Ik heb gewerkt aan de <b>User</b> Story van het online dagboek: "Als ouder wil ik bij het openen van Mijn Vini Mini persoonlijk advies behorende bij de betreffende dag kunnen lezen, zodat de kans op een allergische reactie bij mijn kind kleiner wordt". Ik heb de pagina vormgegeven waar je op land, als je in je persoonlijke omgeving bent en waar je een mini aan kunt maken.
+
+<img width="1431" alt="Schermafbeelding 2022-10-12 om 20 44 05" src="https://user-images.githubusercontent.com/112861144/195423169-bfb9c310-7f84-4581-999b-c318a0014c0c.png">
+
+<img width="1431" alt="Schermafbeelding 2022-10-12 om 20 44 13" src="https://user-images.githubusercontent.com/112861144/195423172-d7f3d9ea-756a-4864-add5-5bcc92c9490b.png">
+
+Bekijk hier mijn pagina -> :sparkles: http://vini-mini.student.fdnd.nl/ :sparkles:
 
 ## Kenmerken
-<!-- Bij Kenmerken staat welke technieken zijn gebruikt en hoe. Wat is de HTML structuur? Wat zijn de belangrijkste dingen in CSS? Wat is er met Javascript gedaan en hoe? Misschien heb je een framwork of library gebruikt? -->
+Ik heb HTML en CSS gebruikt. Met HTML maak je gebruik van elementen waaruit een pagina bestaat. Hiermee geef je aan de webbrowser door welk element er op welke manier moet worden weergegeven. Met CSS kun je de website opmaken. Hier bepaal je dus onder andere bijvoorbeeld de kleur, vorm en typografie.
 
+Mijn HTML-bestand bestaat uit:
+een linkje naar mijn CSS-bestand,
+<img width="378" alt="Schermafbeelding 2022-10-12 om 20 52 00" src="https://user-images.githubusercontent.com/112861144/195424679-6c51ba89-41eb-42a5-bb4d-0a05a1128e7d.png">
 
+een link naar de juiste typografie (Montserrat),
+<img width="592" alt="Schermafbeelding 2022-10-12 om 20 52 11" src="https://user-images.githubusercontent.com/112861144/195424845-7a70a379-b768-468b-839f-12c583605caa.png">
+
+en een link naar je icons.
+<img width="656" alt="Schermafbeelding 2022-10-12 om 20 52 17" src="https://user-images.githubusercontent.com/112861144/195424942-0626ff21-f9e3-43dc-be4f-3a35bc228509.png">
 
 ## Bronnen
+<br>https://freshdesignweb.com/
+<br>https://developer.mozilla.org/
+<br>https://www.w3schools.com/
+<br>https://fontawesome.com/
+<br>https://www.google.com/
 
 ## Licentie
 
